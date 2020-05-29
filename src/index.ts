@@ -129,3 +129,24 @@ function sum(a: number, b: number, c?: number) {
 sum(3, 4);
 
 sum (3, 4, 5)
+
+// let gender: "男" | "女"
+
+// enum Gender{
+//   male= "男",
+//   female= "女"
+// }
+
+// let gender:Gender;
+
+// gender = Gender.male
+// gender = Gender.female
+
+
+enum Level {
+  level1 = 1,
+  level2 = 2,
+  level3 = 3
+}
+
+let l: Level = Level.level1
