@@ -150,3 +150,11 @@ enum Level {
 }
 
 let l: Level = Level.level1
+
+
+enum Permission {
+  Read,
+  Write,
+  Create,
+  Delete
+}
